@@ -258,7 +258,7 @@
 
     <div class="b-example-divider"></div>
 
-    <div class="container">
+    <div class="container overflow-auto">
         <header>
             <div class="pricing-header text-center">
                 <h4 class="text-body-emphasis">Главная</h4>
@@ -303,40 +303,52 @@
                 <div class="row">
                     <div class="col-12">
                         <h6 class="text-center">FAQ</h6>
-                        <p>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseBuy" aria-expanded="false"
-                                    aria-controls="collapseBuy">
-                                Как купить?
-                            </button>
+                        <button class="btn btn-primary" style="width: 100%; display: block;" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseBuy" aria-expanded="false"
+                                aria-controls="collapseBuy">
+                            Как купить?
+                        </button>
 
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseShip" aria-expanded="false"
-                                    aria-controls="collapseShip">
-                                Как доставить?
-                            </button>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseWarranty" aria-expanded="false"
-                                    aria-controls="collapseWarranty">
-                                Какая гарантия?
-                            </button>
-                        </p>
                         <div class="collapse" id="collapseBuy">
                             <div class="card card-body">
                                 shut up and give us all your money now
                             </div>
                         </div>
+                    </div>
+
+                    <div class="col-12">
+
+                        <button class="btn btn-primary" style="width: 100%; display: block;" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseShip" aria-expanded="false"
+                                aria-controls="collapseShip">
+                            Как доставить?
+                        </button>
+
                         <div class="collapse" id="collapseShip">
                             <div class="card card-body">
                                 сам приедешь, улица пушкина, дом колотушкина.
                             </div>
                         </div>
+                    </div>
+
+                    <div class="col-12">
+                        <button class="btn btn-primary" style="width: 100%; display: block;" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseWarranty" aria-expanded="false"
+                                aria-controls="collapseWarranty">
+                            Какая гарантия?
+                        </button>
+
                         <div class="collapse" id="collapseWarranty">
                             <div class="card card-body">
                                 гарантия только на то, что ты сюда больше не придешь
                             </div>
                         </div>
-                        <div class="row">
+                    </div>
+                    <div class="container">
+                        <div class="table-responsive">
                             <table class="table table-sm">
                                 <thead>
                                 <tr>
@@ -399,6 +411,7 @@
                                 </tr>
                                 </tbody>
                             </table>
+                        </div>
         </main>
     </div>
 </main>
